@@ -1,0 +1,48 @@
+.header_top-line {
+}
+.header_contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contacts_item {
+  display: inline-block;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-size: 12px;
+  line-height: 1.33;
+  color: var(--grey-text-color);
+}
+.contacts-icon {
+  fill: var(--grey-text-color);
+}
+.header_navigation {
+  display: flex;
+}
+.header_navigation__menu {
+  display: flex;
+}
+.logo {
+  margin-right: 470px;
+  font-family: 'Jaffna';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+  color: var(--main-text-color);
+}
+.menu_item {
+}
+.menu_item_link {
+  padding: 30px 20px;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.29;
+  text-transform: uppercase;
+  color: var(--grey-text-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--bg-contacts);
+  }
+}
